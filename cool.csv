@@ -1,0 +1,71 @@
+ID,Title,Brand,Size,Material,Origin
+TopGarment01,White Button Down Shirt,Uniqlo,M,Linen,China
+TopGarment02,Black Stretchy Biker Top,Heat-Out,L,"Polyamide.Polyester, Elastane ",China
+TopGarment03,Shiny Jacket Shell,,,,
+TopGarment04,Blue See-through Blouse,Macshore Classics,,,
+TopGarment05,Navy Longsleeve Polo,Architect,,,
+TopGarment06,Dark Grey Button Down,Pure Products,XL,,
+TopGarment07,Blue Striped Tunic,Sci Moers,XL,Wool,G
+TopGarment08,Light Brown Button Down,Weather Proof,M,Polyester,China
+TopGarment09,Dark Green Racer Back,Athleta,XXS,"Nylon, Polyester, Spandex",Sri Lanka
+TopGarment10,Grey Sweat Shirt,Hanes,XXL,"Cotton, Polyester",Mexico
+TopGarment11,Hoodie,Aqua,18,"Polyester, Viscose, Wool",
+TopGarment12,Jacket,Angie,,,
+TopGarment13,Baseball T-shirt,MTL Apparel,M,"Cotton, Polyester",Bangladesh
+TopGarment14,Tight Long Sleeve Polo,Express,L,Acrylic,USA
+TopGarment15,Red Polo,J.Crew,M,Cotton,China
+TopGarment16,Black and White Striped Button Down,K Arrold,L,Silk,China
+TopGarment17,Striped Long Sleeve Button Down,Banana Republic,S,"Cotton, Spandex",Sri Lanka
+TopGarment18,Flannel Top,,,,
+TopGarment19,Shiny Long Sleeve Button Down,J.Crew,S,Cotton,China
+TopGarment20,Sweater,Mossimo Dutti,M,"Wool, Silk",Spain
+TopGarment21,Austin T-Shirt,Canvas,S,"Polyester, Cotton, Rayon",
+TopGarment22,Long Sleeve Top,Harley Davidson,M,Cotton,Missouri
+TopGarment23,MTV T-Shirt,MTV,L,,
+TopGarment24,Orange Hawaiian Button Down,St.Johns Bay,M,Silk,China
+TopGarment25,Yellow Puffer Vest,Old Navy,S,"Polyester, Acrylic",Vietnam
+TopGarment26,Multi-colored Sweater Vest,,,,
+TopGarment27,Black Bomber Jacket,Members Only,38,"Polyester, Cotton, Nylon ",Korea
+TopGarment28,White Hawaiian Button Down,Tommy Bahama,M,Silk,China
+TopGarment29,Denim Jacket,Kenneth Cole,M,"Cotton, Spandex",China
+TopGarment30,Denim Jacket,St.Johns Bay,XL,Cotton,Bangladesh
+TopGarment31,Dark Blue Long Sleeve Button Down,J. Crew,XL,Cotton,Mauritius
+TopGarment32,Striped Long Sleeve Button Down,Express,,,
+TopGarment33,Harley Shirt,Harley Davidson,XL,Cotton,USA
+TopGarment34,Ultimate Tee,Adidas,M,"Polyester, Cotton",Nicaragua
+TopGarment35,Black Long Sleeve Tee,Polo Ralph Lauren,L,,Peru
+TopGarment36,Blue Puffer Jacket,Uniqlo,140,"Polyester, Down",China
+TopGarment37,Cream Wool Top,Gap,L,"Lambswool, Angora Rabbit Hair",Thailand
+TopGarment38,Denim Button Down,Everlane,M,Linen,China
+TopGarment39,Long Sleeve Button Down,Guess,S,,
+TopGarment40,Long Sleeve Blouse,Jones New York,20 W,Silk,Korea
+TopGarment41,Pink Top,Lands End,S,Baumwoole,Hong Kong
+BottomSet01,White Pants,Pendleton,8,Polyester,China
+BottomSet02,Green Pants,Old Navy,6,"Cotton, Spandex",Pakistan
+BottomSet03,Mustard Pants,Shinesdar,S,"Polyester, Spandex",Vietnam
+BottomSet04,Pants,Levis,32,Denim,
+BottomSet05,Lined Pants,Katherine Kelly,12,"Silk, Acetate",China
+BottomSet06,Chinos,Goodfellow,32,Hennepin Chino,Indonesia
+BottomSet07,Grid Joggers,Gap,29,"Cotton, Spandex",Vietnam
+BottomSet08,Dark Blue Pants,Jos. A. Bank,L,Corduroy,Dominican Republic
+BottomSet09,Light and Dark Split Pants,Pacsun,24,Cotton,China
+BottomSet10,Ripped Pants,Riot,10,"Cotton, Polyester",China
+BottomSet11,Brown Pant,Ermenegildo Zegna,40,Cotton,Italy
+BottomSet12,Sinched Shorts,Ra-One,S,,
+BottomSet13,Houndstooth Pant,Liz Claiborne,14,"Rayon, Wool, Acetate, Other",El Salvador
+BottomSet14,Light Grey Pant,Izod,,,
+BottomSet15,Multi-color Long Coat,Forever 21,S,"Polyester, Wool",China
+BottomSet16,Dark Green Coat,Libidoroule,M,Cotton,China
+BottomSet17,Joggers,Kappa,M,Polyester,China
+BottomSet18,Wide Pants,Lee Pipes,L,Denim,
+BottomSet19,Jean Shorts,,32,Cotton,Turkmenistan
+BottomSet20,Track Pants,Adidas,M,Polyester,Indonesia
+FemTopGarment01,Red and White Striped Crop Top,Polo,,,
+FemTopGarment02,Black and White Crop Top,Nude,S,"Cotton, Spandex, Polyester",China
+FemTopGarment03,Sweater Crop Top,,,,
+FemTopGarment04,Red and White Crop Top,,,,
+FemTopGarment05,Black Crop Top,,,,
+FemTopGarment06,Polo Extreme Crop,Kennington,L,"Cotton, Polyester",Taiwan
+FemTopGarment07,Black and White Polka Dot Top,Urban Romantics,S,Polyester,China
+FemTopGarment08,"Red, White, and Blue Crop",,XS,"Polyester, Cotton",China
+FemTopGarment09,Black Knit Crop Top,Akira,S,Cotton,China
