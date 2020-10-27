@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Eina";
+    src: url('Eina01-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: "Eina2";
+    src: url('Eina01-Regular.ttf') format('truetype');
+  }
+  
+  .centered {margin-left: 1.9%;
+    overflow:auto;}
+  
+  
+  .column {
+    margin: 3%;
+  
+      float: left;
+      width: 27%;
+    }
+  /* The container */
+  .container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    display: none;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+  
+  
+      background-color: white;
+      border: 1px solid blue;
+    
+    
+    float: left;
+  
+    top: 0;
+    left: 0;
+    height:125px;
+    padding-left: 1%;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size:350px 250px;
+    overflow: hidden;
+  
+  
+  }
+  
+  .checkmark2 {
+  
+  
+  background-color: white;
+  border: 1px solid blue;
+  
+  
+  float: left;
+  
+  top: 0;
+  left: 0;
+  height:125px;
+  padding-left: 1%;
+  width: 350px;
+  background-repeat: no-repeat;
+  background-size:250px 350px;
+  background-position: center top;
+  overflow: hidden;
+  
+  
+  }
+  
+  h2 {
+    color: blue;
+    font-family: Eina;
+    position: relative;
+    font-size: 10px;
+      text-align: center;
+      line-height: 105%;
+  
+  }
+  h3 {
+    color: blue;
+    font-family: Eina;
+    position: relative;
+    font-size: 21px;
+      text-align: center;
+      line-height: 105%;
+  
+  }
+  
+  h1 {
+    color: blue;
+    font-family: Eina2;
+    line-height: 80%;
+  
+    position: relative;
+  font-size: 8px;
+  text-align: center;
+  bottom: 0;
+  
+  } 
+              #bottom { 
+                  position:absolute;                  
+                  bottom:0;                          
+                  right:0;                          
+              } 
+  
+  /* On mouse-over, add a grey background color */
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: blue;
+  }
+  .container input:checked ~ .checkmark h2{
+    color:white;
+  }
+  
+  .container input:checked ~ .checkmark h1{
+    color:white;
+  }
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark2 {
+    background-color: blue;
+  }
+  .container input:checked ~ .checkmark2 h2{
+    color:white;
+  }
+  
+  .container input:checked ~ .checkmark2 h1{
+    color:white;
+  }
+  /* Create the checkmark2/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: relative;
+    display: none;
+  }
+  
+  /* Show the checkmark2 when checked */
+  .container input:checked ~ .checkmark2:after {
+    display: block;
+    display: none;
+  }
+  
+  /* Style the checkmark2/indicator */
+  
+  
+  #content {
+    position: fixed;
+    z-index: 300;
+  }
+  #content img {
+    position: fixed;
+      top: 20px;
+      left: 20px;
+  }
+  
+  .ribbon {
+    position: fixed;
+  }
+
+  body {cursor: url("mouse.png"), default;}

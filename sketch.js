@@ -38,6 +38,13 @@ function getQueryStringValue (key) {
 
 function setup() {
 
+  var cnv = createCanvas(840, 840);
+
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+
+  cnv.position(x, y+140);
+
   let q = 0;
   for (const key of urlParams.keys()) {
     if(q == 0)
@@ -51,7 +58,6 @@ function setup() {
     }
 
 
-  createCanvas(windowWidth,windowHeight);
 
 
 
@@ -112,8 +118,8 @@ function resetSketch (){
     for (let i = 0; i < layeringImg.length; i++) {
 
 
-    sx = int(random(0, 560));
-    sy = int(random(0, 840));
+    sx = int(random(0, Lwidth));
+    sy = int(random(0, Lheight));
     sw = int(random(0, 500));
     sh = int(random(0, 500));
 
