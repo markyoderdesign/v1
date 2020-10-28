@@ -14,6 +14,9 @@ let dy;
 let dw;
 let dh;
 
+let t;
+let k;
+
 let slider1;
 let slider2;
 
@@ -38,12 +41,7 @@ function getQueryStringValue (key) {
 
 function setup() {
 
-  var cnv = createCanvas(840, 840);
 
-  var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
-
-  cnv.position(x, y+140);
 
   let q = 0;
   for (const key of urlParams.keys()) {
@@ -57,22 +55,32 @@ function setup() {
       
     }
 
+  var cnv = createCanvas(840, 560);
+
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+
+  cnv.position(x, y+20);
 
 
 
+
+
+    t=img.width/px
+    k=img.height/px
 
 
   layer1 = createGraphics(img.width, img.height);
-  slider1 = createSlider(100, 3000, 100);
-  slider1.position(400, 45);
-  slider1.style('width', '80px');
-  
-  slider2 = createSlider(100,3000, 100);
-  slider2.position(400, 20);
-  slider2.style('width', '80px');
+  slider1 = createSlider(50, 560, 100);
+  slider1.position(40, 350);
+  slider1.style('width', '120px');
+
+  slider2 = createSlider(50,560, 100);
+  slider2.position(40, 395);
+  slider2.style('width', '120px');
 
   button = createImg('save.png');
-  button.position(260, 20);
+  button.position(70, 455);
   button.mousePressed(saveCanvas);
 
 
@@ -120,8 +128,8 @@ function resetSketch (){
 
     sx = int(random(0, Lwidth));
     sy = int(random(0, Lheight));
-    sw = int(random(0, 500));
-    sh = int(random(0, 500));
+    sw = int(random(0, slider1.value()));
+    sh = int(random(0, slider2.value()));
 
     dx = sx
     dy = sy

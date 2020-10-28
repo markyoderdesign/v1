@@ -1,12 +1,10 @@
 @font-face {
     font-family: "Eina";
-    src: url('Eina01-Bold.ttf') format('truetype');
+    src: url('fonts/Eina01-Bold.ttf') format('truetype');
+    src: url('fonts/Eina01-Regular.ttf') format('truetype');
+    src: url('fonts/Eina01-SemiBold.ttf') format('truetype');
   }
-  @font-face {
-    font-family: "Eina2";
-    src: url('Eina01-Regular.ttf') format('truetype');
-  }
-  
+
   .centered {margin-left: 1.9%;
     overflow:auto;}
   
@@ -45,7 +43,7 @@
   
   
       background-color: white;
-      border: 1px solid blue;
+      border: 1px solid #184F8D;
     
     
     float: left;
@@ -66,7 +64,7 @@
   
   
   background-color: white;
-  border: 1px solid blue;
+  border: 1px solid #184F8D;
   
   
   float: left;
@@ -85,7 +83,7 @@
   }
   
   h2 {
-    color: blue;
+    color: #184F8D;
     font-family: Eina;
     position: relative;
     font-size: 10px;
@@ -94,7 +92,7 @@
   
   }
   h3 {
-    color: blue;
+    color: #184F8D;
     font-family: Eina;
     position: relative;
     font-size: 21px;
@@ -104,8 +102,8 @@
   }
   
   h1 {
-    color: blue;
-    font-family: Eina2;
+    color: #184F8D;
+    font-family: Eina;
     line-height: 80%;
   
     position: relative;
@@ -123,9 +121,9 @@
   /* On mouse-over, add a grey background color */
   
   
-  /* When the checkbox is checked, add a blue background */
+  /* When the checkbox is checked, add a #184F8D background */
   .container input:checked ~ .checkmark {
-    background-color: blue;
+    background-color: #184F8D;
   }
   .container input:checked ~ .checkmark h2{
     color:white;
@@ -148,7 +146,7 @@
   }
   
   .container input:checked ~ .checkmark2 {
-    background-color: blue;
+    background-color: #184F8D;
   }
   .container input:checked ~ .checkmark2 h2{
     color:white;
@@ -183,8 +181,102 @@
       left: 20px;
   }
   
+  #content2 {
+    position: fixed;
+    z-index: 300;
+  }
+  #content2 img {
+    position: fixed;
+      top: 27px;
+      right: 185px;
+  }
   .ribbon {
     position: fixed;
   }
 
   body {cursor: url("mouse.png"), default;}
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: white;
+    color: #184F8D;
+    font-family: Eina;
+    border: 1px solid #184F8D;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  canvas{border: 2px solid #184F8D}
+
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover { background-color: #184F8D; color:white  }
+
+  .text {
+    background-color:#ff0000;
+    color:#fff;
+    display:inline-block;
+    padding-left:4px;
+}
+.arrow {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.20em;
+    display: -moz-inline-box;
+    display: inline-block;
+    /* Use font-size to control the size of the arrow. */
+    font-size: 100px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+    background-color:#fff; /* change background color acc to bg color */ 
+    border-left-width: 0.2em;
+    border-left-style: solid;
+    border-left-color:#184F8D;
+    left:0.25em;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:black;
+  text-align: center;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}

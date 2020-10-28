@@ -6,7 +6,7 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="/v2/jquery-hoverIntent-master/jquery.hoverIntent.js"></script>
+  <script type="text/javascript" src="/jquery-hoverIntent-master/jquery.hoverIntent.js"></script>
   <link rel="stylesheet" href="style.css">
 
 
@@ -24,49 +24,54 @@
 </script>
 
 <script>
-  $(document).ready(function(){
-      var boxHeight = $(".checkmark2").height();
-      $(".checkmark2").mouseenter(function(){
-          $(this).animate({
-              height: "425"
-          });
-      }).mouseleave(function(){
-          $(this).animate({
-              height: boxHeight
-          },400);
-      });
-  });
+    $(function() {
+    $(".checkmark2").hoverIntent(function() {
+        $(this).animate({"height":425},450);
+    }, function() {
+        $(this).animate({"height":125},400);
+    } );
+});
+
 
 
 </script>
 
 
-<style>
-
-
-.disable-hover {
-    pointer-events: none;
-  }
-
-
-
-
-</style>
 </head>
 
 
 <div id="content">
   <img src="MALogo.png" width=13% height=13% class="ribbon">
 </div>
+
+
+<!-- <div id="content2" >
+  <img src="cart blue (1).png" width=4% height=6.2%>
+</div> -->
+
+
+
+
+<h1 style="color:#184F8D;"></h1>
+
   <body>
+
+    <div id="content"><h2 style="color: black; margin-top: 120px; margin-left: 15px; line-height: 1.2;text-align: left; font-weight: 500;">
+      <br>Welcome to the Making Amends Catalog.<br><br>
+      To begin, select 3-5 garments <br> from one of the following categories: <br>
+      Tops, Bottoms, Crop Tops. <br>
+      Garments will be highlighted blue once selected. <br>
+      Press the 'Send to Generator' button when
+      <br>you have your desired combination.</h2></div>
+
     <main>
       <form action="display.html" method="GET">
 
-        <input type="submit" style="position: fixed; top: 20px; right: 20px; z-index: 299;" value="Send To Generator">
+        <input type="submit" style="width:fit-content; position: fixed; top: 20px; right: 20px; z-index: 299;" value="Send To Generator">
         
 
       <br> 
-<br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br><br>
 <h3>TOPS</h3>
 <div class="centered">
 
@@ -1061,5 +1066,9 @@
 
 </form>
     </main>
+
+    <div class="footer" style="  position: relative;">
+      <h2 style="font-style: italic; color:gray;">Tool Created by Claren Moyers & Mark Yoder</h2>
+    </div>
   </body>
 </html>
