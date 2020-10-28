@@ -1,4 +1,6 @@
-<!DOCTYPE html><html><head>
+<!DOCTYPE html><html><head></head>
+
+  
     <script src="p5.js"></script>
     <script src="p5.dom.min.js"></script>
     <script src="p5.sound.min.js"></script>
@@ -13,8 +15,6 @@ html, body {
 }
 
 body {
-  margin: 0;
-  display: flex;
 
   /* This centers our sketch horizontally. */
   justify-content: center;
@@ -24,6 +24,12 @@ body {
 
 
 }
+
+.box3 {
+    width:170px;
+    height:auto;
+    float:left;
+ }
 
 .images { 
     width: 25%;
@@ -39,12 +45,29 @@ body {
 }
     </style>
 
-    
 
+    
+<div id="content"><h2 style="color: black; margin-top: 120px; margin-left: 15px; line-height: 1.2;text-align: left; font-weight: 500;">
+  <br>  Welcome to the Making Amends Generator. <br>
+  <br>
+
+  Your selected garments are loaded. <br>
+  Click anywhere on the page to <br>
+  generate a new design. <br>
+  Change sliders to alter the design. <br>
+  Click the save button when you are <br>
+  feeling inspired. Share your creations <br>
+  with friends or use them to guide <br>
+  the upcycling process. <br>
+  <br>
+  UT Students request tools and materials here.
+</h2></div>
 
 <div id="content">
     <img src="MALogo.png" width=13% height=13% class="ribbon">
   </div>
+
+
 
         <body>
 
@@ -66,6 +89,9 @@ body {
      
 
         </body>
+        <div class="footer">
+          <h2 style="font-style: italic; color:gray;">Tool Created by Claren Moyers & Mark Yoder</h2>
+        </div>
 
     </head>
 </html>
